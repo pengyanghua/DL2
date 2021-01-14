@@ -23,5 +23,10 @@ Check [parameters.py](./parameters.py) if you want to change some hyper-paramete
 ## Trace
 We put some traces collected from our testbed in [config_speed.txt](./config_speed.txt). You may need to collect your own trace if running on a different setup. For k8s setup, please check [Optimus](https://github.com/pengyanghua/optimus).
 
+## Elastic Scaling
+
+Please check the [MXNet repo](https://github.com/pengyanghua/mxnet) for the implementation of elastic resource scaling. We have modified the communication library including KVStore and pslite.
+
+
 ## Publication
 To Add.
